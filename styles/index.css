@@ -85,10 +85,13 @@ header.hide {
 }
 
 .header__bottom .logo {
-  font-size: 3rem;
   text-decoration: none;
   color: var(--primary-color);
   font-weight: 800;
+}
+
+.header__bottom .logo img {
+  height: 6rem;
 }
 
 .header__bottom nav ul {
@@ -175,7 +178,7 @@ header.hide {
   color: var(--primary-color);
 }
 
-#hamburger-menu {
+#hamburger {
   display: none;
   cursor: pointer;
 }
@@ -196,7 +199,7 @@ header.hide {
 
 /* HERO SECTION */
 .hero-section {
-  padding-top: 13rem;
+  padding-top: 15rem;
   background-color: var(--bg-2);
   max-width: none;
 }
@@ -672,7 +675,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  #hamburger-menu,
+  #hamburger,
   #close {
     display: initial;
   }
