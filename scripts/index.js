@@ -13,6 +13,7 @@ closeBtn.addEventListener("click", () => {
   nav.classList.remove("active");
 });
 
+// on scoll hide menu in mobile
 window.addEventListener("scroll", () => {
   nav.classList.remove("active");
 });
@@ -53,4 +54,40 @@ scrollToTop.addEventListener("click", () => {
     top: 0,
     behavior: "smooth",
   });
+});
+
+/**ADD ENTRANCE MOTION EFFECTS FROM SCROLLREVEAL.ORG */
+ScrollReveal().reveal(".collection", {
+  origin: "bottom",
+  distance: "50px",
+  delay: 200,
+  duration: 1000,
+});
+
+ScrollReveal().reveal(".collection", {
+  origin: "bottom",
+  distance: "50px",
+  delay: 100,
+  duration: 1200,
+});
+
+ScrollReveal().reveal(".heading", {
+  origin: "bottom",
+  distance: "50px",
+  delay: 1000,
+  duration: 1200,
+});
+
+ScrollReveal().reveal(".description", {
+  origin: "bottom",
+  distance: "50px",
+  delay: 1000,
+  duration: 1200,
+});
+
+ScrollReveal().reveal(".call-to-action", {
+  origin: "bottom",
+  distance: "50px",
+  delay: 1500,
+  duration: 1200,
 });
