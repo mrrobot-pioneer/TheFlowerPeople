@@ -207,6 +207,7 @@ header.hide {
 
 .hero-section swiper-slide {
   height: 100%;
+  padding-left: 0.5rem;
   min-height: 35rem;
   width: 100%;
   display: flex;

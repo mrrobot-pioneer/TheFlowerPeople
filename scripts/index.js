@@ -56,38 +56,25 @@ scrollToTop.addEventListener("click", () => {
   });
 });
 
-/**ADD ENTRANCE MOTION EFFECTS FROM SCROLLREVEAL.ORG */
-ScrollReveal().reveal(".collection", {
-  origin: "bottom",
-  distance: "50px",
+/**ADD ENTRANCE MOTION EFFECTS FROM PRIMEELEMENTS.PRO */
+PrimeElements.fadeInUp(".collection", {
+  distance: 50,
   delay: 200,
   duration: 1000,
 });
 
-ScrollReveal().reveal(".collection", {
-  origin: "bottom",
-  distance: "50px",
-  delay: 100,
-  duration: 1200,
-});
-
-ScrollReveal().reveal(".heading", {
-  origin: "bottom",
-  distance: "50px",
+PrimeElements.fadeInUp(".heading", {
+  distance: 50,
   delay: 1000,
   duration: 1200,
 });
 
-ScrollReveal().reveal(".description", {
-  origin: "bottom",
-  distance: "50px",
-  delay: 1000,
+PrimeElements.fadeInUp(".description", {
+  distance: 50,
+  delay: 900,
   duration: 1200,
 });
 
-ScrollReveal().reveal(".call-to-action", {
-  origin: "bottom",
-  distance: "50px",
-  delay: 1500,
-  duration: 1200,
+PrimeElements.bounceDown(".call-to-action", {
+  delay: 2000,
 });
